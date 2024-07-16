@@ -8,7 +8,7 @@
 <body>
     <h1>
         <?php 
-            echo "Fist lesson";
+            echo "First lesson";
         ?>
     </h1>
 
@@ -37,24 +37,6 @@
             ?>
         </span>
     </div>
-    <br>
-    <div class="conditionals">
-        
-        <?php
-            $country = "Brazil";
-            $visited = true;
-
-            if($visited){
-                $message = "You need return to $country";
-            }else{
-                $message = "You need to know $country";
-            }
-        ?>
-        
-        <span>
-            <?php echo $message ?>
-        </span>
-
-    </div>
+    
 </body>
 </html>
